@@ -1,5 +1,4 @@
 
-import './app.css';
 import { useEffect, useState } from "react";
 function renderExpenses(expenses) {
      const rows = expenses.map((expense) => {
